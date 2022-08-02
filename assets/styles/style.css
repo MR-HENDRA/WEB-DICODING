@@ -17,9 +17,11 @@ body {
 
 .c-font {
   color: #ebdece;
-  font-family: 'Leckerli One', cursive;
-  font-size: 50px;
+  font-family: 'Leckerli One', sans-serif;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
+
 header {
   display: inline;
 }
@@ -59,8 +61,21 @@ h3 {
 }
 
 .img-logo {
+  /*settingan untuk logo Firman Paint*/
   width: 250px;
   object-position: center;
+}
+
+.konten {
+  object-position: center;
+  text-align: center;
+}
+.img-konten {
+  /*settingan untuk gambar konten*/
+  width: 200px;
+  padding-top: 40px;
+  object-position: center;
+  object-fit: cover;
 }
 
 .profile header {
@@ -75,6 +90,7 @@ h3 {
 }
 
 .profile-img {
+  /*settingan untuk foto peserta di bagian aside*/
   width: 200px;
   border-radius: 50%;
 }
@@ -85,6 +101,7 @@ h3 {
   padding: 20px;
   margin-top: 20px;
   background-color: #ffffff;
+  overflow: auto;
 }
 
 .icon {
@@ -92,6 +109,12 @@ h3 {
   height: 40px;
   object-fit: cover;
   object-position: center;
+}
+
+.icon-footer {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
 }
 
 #content {
