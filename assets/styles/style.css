@@ -60,11 +60,18 @@ h1 {
   font-family: 'Leckerli One', sans-serif; /* font */
   padding-top: 0px; /* jarak atas antar font dengan elemen lain */
   padding-bottom: 0px; /* jarak bawah antar font dengan elemen lain */
+  font-weight: bold;
+  text-shadow: 4px 4px rgb(0, 0, 0);
 }
 
 h2,
 h3 {
   color: #293b5f;
+}
+
+.p-jumbotron {
+  font-weight: bold;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
 
 .img-logo {
