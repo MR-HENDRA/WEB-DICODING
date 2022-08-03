@@ -40,7 +40,7 @@ nav a {
   /* Style the links */
   font-size: 18px; /* ukuran font dalam navigation bar */
   font-weight: 400; /* berat font dalam navigation bar */
-  text-decoration: none; /* menghilangkan garis bawah pada navigation bar */
+  text-decoration: none;
   color: white; /* warna font dalam navigation bar */
 }
 
