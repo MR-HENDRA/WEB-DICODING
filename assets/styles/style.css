@@ -16,14 +16,6 @@ body {
   color: white; /* warna font dalam jumbotron */
 }
 
-.c-font {
-  /* Style the font h1 */
-  color: #ebdece; /* warna font */
-  font-family: 'Leckerli One', sans-serif; /* font */
-  padding-top: 0px; /* jarak atas antar font dengan elemen lain */
-  padding-bottom: 0px; /* jarak bawah antar font dengan elemen lain */
-}
-
 header {
   /* Style the header */
   display: inline; /* mengatur header secara horizontal */
@@ -63,6 +55,13 @@ main {
   overflow: auto; /* mengatur main content secara scroll */
 }
 
+h1 {
+  color: #ebdece; /* warna font */
+  font-family: 'Leckerli One', sans-serif; /* font */
+  padding-top: 0px; /* jarak atas antar font dengan elemen lain */
+  padding-bottom: 0px; /* jarak bawah antar font dengan elemen lain */
+}
+
 h2,
 h3 {
   color: #293b5f;
@@ -79,12 +78,17 @@ h3 {
   object-position: center; /*posisi konten*/
   text-align: center; /*posisi teks*/
 }
+
 .img-konten {
   /*settingan untuk gambar konten*/
   width: 200px; /*lebar gambar*/
-  padding-top: 20px; /*jarak atas gambar*/
+  padding-top: 0px; /*jarak atas gambar*/
   object-fit: cover; /*tipe pengaturan gambar*/
   object-position: center; /*posisi gambar*/
+}
+
+.text-paragraf {
+  text-align: justify;
 }
 
 .profile header {
