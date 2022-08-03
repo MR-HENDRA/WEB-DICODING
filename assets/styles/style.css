@@ -8,51 +8,59 @@ body {
 }
 
 .jumbotron {
-  padding: 20px;
-  background-color: #47597e;
-  text-align: center;
-  font-size: 20px;
-  color: white;
+  /* Style the jumbotron */
+  padding: 20px; /* jarak antar jumbotron dengan elemen lain */
+  background-color: #47597e; /* warna jumbotron */
+  text-align: center; /* mengatur text dalam jumbotron secara horizontal dan center */
+  font-size: 20px; /* ukuran font dalam jumbotron */
+  color: white; /* warna font dalam jumbotron */
 }
 
 .c-font {
-  color: #ebdece;
-  font-family: 'Leckerli One', sans-serif;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  /* Style the font h1 */
+  color: #ebdece; /* warna font */
+  font-family: 'Leckerli One', sans-serif; /* font */
+  padding-top: 0px; /* jarak atas antar font dengan elemen lain */
+  padding-bottom: 0px; /* jarak bawah antar font dengan elemen lain */
 }
 
 header {
-  display: inline;
+  /* Style the header */
+  display: inline; /* mengatur header secara horizontal */
 }
 
 nav {
-  background-color: #293b5f;
-  padding: 5px;
-  position: sticky;
-  top: 0;
+  /* Style the navigation bar */
+  background-color: #293b5f; /* warna navigation bar */
+  padding: 5px; /* jarak antar navigation bar dengan elemen lain */
+  position: sticky; /* mengatur navigation bar secara sticky */
+  top: 0; /* mengatur posisi navigation bar secara atas */
 }
 
 nav li {
-  display: inline;
-  list-style-type: none;
-  margin-right: 20px;
+  /* Style the navigation bar */
+  display: inline; /* mengatur navigation bar secara horizontal */
+  list-style-type: none; /* menghilangkan bintang pada navigation bar */
+  margin-right: 20px; /* jarak antar elemen pada navigation bar dengan elemen lain */
 }
 
 nav a {
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
-  color: white;
+  /* Style the links */
+  font-size: 18px; /* ukuran font dalam navigation bar */
+  font-weight: 400; /* berat font dalam navigation bar */
+  text-decoration: none; /* menghilangkan garis bawah pada navigation bar */
+  color: white; /* warna font dalam navigation bar */
 }
 
 nav a:hover {
+  /* mengatur warna font saat mouse berada diatas elemen */
   font-weight: bold;
 }
 
 main {
-  padding: 20px;
-  overflow: auto;
+  /* Style the main content */
+  padding: 20px; /* jarak antar main content dengan elemen lain */
+  overflow: auto; /* mengatur main content secara scroll */
 }
 
 h2,
@@ -62,89 +70,99 @@ h3 {
 
 .img-logo {
   /*settingan untuk logo Firman Paint*/
-  width: 250px;
-  object-position: center;
+  width: 250px; /*lebar logo*/
+  object-position: center; /*posisi logo*/
 }
 
 .konten {
-  object-position: center;
-  text-align: center;
+  /*settingan untuk konten*/
+  object-position: center; /*posisi konten*/
+  text-align: center; /*posisi teks*/
 }
 .img-konten {
   /*settingan untuk gambar konten*/
-  width: 200px;
-  padding-top: 40px;
-  object-position: center;
-  object-fit: cover;
+  width: 200px; /*lebar gambar*/
+  padding-top: 20px; /*jarak atas gambar*/
+  object-fit: cover; /*tipe pengaturan gambar*/
+  object-position: center; /*posisi gambar*/
 }
 
 .profile header {
-  text-align: center;
+  /*settingan untuk header profile*/
+  text-align: center; /*posisi teks*/
 }
 
 .featured-image {
-  width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  object-position: center;
+  /*settingan untuk featured image*/
+  width: 100%; /*lebar gambar*/
+  max-height: 300px; /*tinggi gambar*/
+  object-fit: cover; /*tipe pengaturan gambar*/
+  object-position: center; /*posisi gambar*/
 }
 
 .profile-img {
   /*settingan untuk foto peserta di bagian aside*/
-  width: 200px;
-  border-radius: 50%;
+  width: 200px; /*lebar gambar*/
+  border-radius: 50%; /*radius gambar*/
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  padding: 20px;
-  margin-top: 20px;
-  background-color: #ffffff;
-  overflow: auto;
+  /*settingan untuk card*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*shadow pada card*/
+  border-radius: 5px; /*radius pada card*/
+  padding: 20px; /*jarak antar card dengan elemen lain*/
+  margin-top: 20px; /*jarak atas card dengan elemen lain*/
+  background-color: #ffffff; /*warna card*/
+  overflow: auto; /*mengatur card secara scroll*/
 }
 
 .icon {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  object-position: center;
+  /*settingan untuk icon*/
+  width: 40px; /*lebar icon*/
+  height: 40px; /*tinggi icon*/
+  object-fit: cover; /*tipe pengaturan icon*/
+  object-position: center; /*posisi icon*/
 }
 
 .icon-footer {
-  width: 30px;
-  height: 30px;
-  object-fit: cover;
+  /*settingan untuk icon footer*/
+  width: 30px; /*lebar icon*/
+  height: 30px; /*tinggi icon*/
+  object-fit: cover; /*tipe pengaturan icon*/
 }
 
 #content {
-  float: left;
-  width: 75%;
+  /*settingan untuk content*/
+  float: left; /*membuat content berada disebelah kiri*/
+  width: 75%; /*lebar content*/
 }
 
 aside {
-  float: right;
-  width: 25%;
-  padding-left: 20px;
+  /*settingan untuk aside*/
+  float: right; /*membuat aside berada disebelah kanan*/
+  width: 25%; /*lebar aside*/
+  padding-left: 20px; /*jarak antar aside dengan elemen lain*/
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* Agar tampilan di perangkat yg kurang dari 1000px dapat menyesuaikan tampilan asidenya kebawah content*/
-@media screen and (max-width: 1000px) {
-  #content,
-  aside {
-    width: 100%;
-    padding: 0;
-  }
+footer {
+  /*settingan untuk footer*/
+  padding: 20px; /*jarak antar footer dengan elemen lain*/
+  color: white; /*warna font dalam footer*/
+  background-color: #293b5f; /*warna footer*/
+  text-align: center; /*mengatur text dalam footer secara horizontal dan center*/
+  font-weight: bold; /*style font dalam footer*/
 }
 
-footer {
-  padding: 20px;
-  color: white;
-  background-color: #293b5f;
-  text-align: center;
-  font-weight: bold;
+/* Agar tampilan di perangkat yg kurang dari 1000px dapat menyesuaikan tampilan asidenya kebawah content*/
+@media screen and (max-width: 1000px) {
+  /*settingan untuk media query*/
+  #content,
+  aside {
+    width: 100%; /*lebar content dan aside*/
+    padding: 0; /*jarak antar content dan aside dengan elemen lain*/
+  }
 }
