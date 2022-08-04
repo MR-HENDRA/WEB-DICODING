@@ -58,6 +58,26 @@ tr td:hover {
   box-shadow: 0px 0px 16px 0px #a3adc1;
 }
 
+/* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+.card a:link {
+  color: black;
+}
+
+/* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+.card a:visited {
+  color: #293b5f;
+}
+
+/* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+.card a:hover {
+  font-weight: bold;
+}
+
+/* rule akan diterapkan pada sebuah tautan ketika ditekan */
+.card a:active {
+  color: #ebdece;
+}
+
 main {
   /* Style the main content */
   padding: 20px; /* jarak antar main content dengan elemen lain */
