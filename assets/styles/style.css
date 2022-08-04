@@ -50,6 +50,14 @@ nav a:hover {
   font-weight: bold;
 }
 
+tr td:hover {
+  font-weight: bold;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 25px 0px #47597e;
+}
+
 main {
   /* Style the main content */
   padding: 20px; /* jarak antar main content dengan elemen lain */
