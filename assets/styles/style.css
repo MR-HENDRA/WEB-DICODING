@@ -17,6 +17,11 @@ body {
   color: white; /* warna font dalam jumbotron */
 }
 
+.p-jumbotron {
+  font-weight: bold;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+
 header {
   /* Style the header */
   display: inline; /* mengatur header secara horizontal */
@@ -45,10 +50,21 @@ nav a {
   color: white; /* warna font dalam navigation bar */
 }
 
+nav a:hover {
+  /* mengatur warna font saat mouse berada diatas elemen */
+  font-weight: bold;
+}
+
 main {
   /* Style the main content */
   padding: 20px; /* jarak antar main content dengan elemen lain */
   overflow: auto; /* mengatur main content secara scroll */
+}
+
+#content {
+  /*settingan untuk content*/
+  float: left; /*membuat content berada disebelah kiri*/
+  width: 75%; /*lebar content*/
 }
 
 h1 {
@@ -63,11 +79,6 @@ h1 {
 h2,
 h3 {
   color: #293b5f;
-}
-
-.p-jumbotron {
-  font-weight: bold;
-  text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
 
 .img-logo {
@@ -107,21 +118,6 @@ h3 {
   object-position: center; /*posisi gambar*/
 }
 
-.profile-img {
-  /*settingan untuk foto peserta di bagian aside*/
-  width: 200px; /*lebar gambar*/
-  border-radius: 50%; /*radius gambar*/
-  margin: 0px auto; /*jarak antar gambar dengan elemen lain*/
-  object-position: center;
-  display: inline;
-}
-
-.image-change {
-  width: 75px;
-  height: 75px;
-  object-position: center;
-  list-style-type: none;
-}
 .card {
   /*settingan untuk card*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*shadow pada card*/
@@ -132,58 +128,8 @@ h3 {
   overflow: auto; /*mengatur card secara scroll*/
 }
 
-.icon {
-  /*settingan untuk icon*/
-  width: 40px; /*lebar icon*/
-  height: 40px; /*tinggi icon*/
-  object-fit: cover; /*tipe pengaturan icon*/
-  object-position: center; /*posisi icon*/
-}
-
-.icon-footer {
-  /*settingan untuk icon footer*/
-  width: 30px; /*lebar icon*/
-  height: 30px; /*tinggi icon*/
-  object-fit: cover; /*tipe pengaturan icon*/
-}
-
-#content {
-  /*settingan untuk content*/
-  float: left; /*membuat content berada disebelah kiri*/
-  width: 75%; /*lebar content*/
-}
-
-aside {
-  /*settingan untuk aside*/
-  float: right; /*membuat aside berada disebelah kanan*/
-  width: 25%; /*lebar aside*/
-  padding-left: 20px; /*jarak antar aside dengan elemen lain*/
-}
-
-* {
-  box-sizing: border-box;
-}
-
-footer {
-  /*settingan untuk footer*/
-  padding: 20px; /*jarak antar footer dengan elemen lain*/
-  color: white; /*warna font dalam footer*/
-  background-color: #293b5f; /*warna footer*/
-  text-align: center; /*mengatur text dalam footer secara horizontal dan center*/
-  font-weight: bold; /*style font dalam footer*/
-}
-
-nav a:hover {
-  /* mengatur warna font saat mouse berada diatas elemen */
-  font-weight: bold;
-}
-
-tr td:hover {
-  font-weight: bold;
-}
-
 .card:hover {
-  box-shadow: 0px 0px 16px 0px #a3adc1;
+  box-shadow: 1px 1px 20px 1px #a3adc1;
 }
 
 .card a {
@@ -208,6 +154,61 @@ tr td:hover {
 /* rule akan diterapkan pada sebuah tautan ketika ditekan */
 .card a:active {
   color: #ebdece;
+}
+
+tr td:hover {
+  font-weight: bold;
+}
+
+.icon {
+  /*settingan untuk icon*/
+  width: 40px; /*lebar icon*/
+  height: 40px; /*tinggi icon*/
+  object-fit: cover; /*tipe pengaturan icon*/
+  object-position: center; /*posisi icon*/
+}
+
+aside {
+  /*settingan untuk aside*/
+  float: right; /*membuat aside berada disebelah kanan*/
+  width: 25%; /*lebar aside*/
+  padding-left: 20px; /*jarak antar aside dengan elemen lain*/
+}
+
+.profile-img {
+  /*settingan untuk foto peserta di bagian aside*/
+  width: 200px; /*lebar gambar*/
+  border-radius: 50%; /*radius gambar*/
+  margin: 0px auto; /*jarak antar gambar dengan elemen lain*/
+  object-position: center;
+  display: inline;
+}
+
+.image-change {
+  width: 75px;
+  height: 75px;
+  object-position: center;
+  list-style-type: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  /*settingan untuk footer*/
+  padding: 20px; /*jarak antar footer dengan elemen lain*/
+  color: white; /*warna font dalam footer*/
+  background-color: #293b5f; /*warna footer*/
+  text-align: center; /*mengatur text dalam footer secara horizontal dan center*/
+  font-weight: bold; /*style font dalam footer*/
+}
+
+.icon-footer {
+  /*settingan untuk icon footer*/
+  width: 30px; /*lebar icon*/
+  height: 30px; /*tinggi icon*/
+  object-fit: cover; /*tipe pengaturan icon*/
 }
 
 /* Agar tampilan di perangkat yg kurang dari 1000px dapat menyesuaikan tampilan asidenya kebawah content*/
